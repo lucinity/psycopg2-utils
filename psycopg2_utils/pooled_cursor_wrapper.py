@@ -1,5 +1,5 @@
 from functools import wraps
-from .Cursor import Cursor
+from .cursor import Cursor
 
 
 def pooled_cursor(m):

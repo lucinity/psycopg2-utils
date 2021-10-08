@@ -1,3 +1,3 @@
-from .ConnectionPool import ConnectionPool
-from .Cursor import Cursor
-from .pooled_cursor import pooled_cursor
+from .pool import ConnectionPool
+from .cursor import Cursor
+from .pooled_cursor_wrapper import pooled_cursor
